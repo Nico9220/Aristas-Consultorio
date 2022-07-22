@@ -4,7 +4,7 @@ import '../Styles/Home.css';
 export default function Home() {
 
     return (
-        <section>
+        <section className='main-container'>
             <div className='title-home'>
                 <h1>Bienvenido a Aristas, Odontología integrada.</h1>
             </div>

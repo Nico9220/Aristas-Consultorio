@@ -8,7 +8,7 @@ import './App.css';
 export default function App() {
   return (
     <>
-      <section className='main-container'>
+      <section >
         <BrowserRouter>
           <NavBar />
           <Routes>

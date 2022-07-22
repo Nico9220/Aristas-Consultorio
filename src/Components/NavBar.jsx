@@ -9,8 +9,8 @@ export default function NavBar() {
 
     return (
         <>
-            <Navbar bg="dark" expand="lg" variant='dark'>
-                <Container fluid>
+            <Navbar bg="dark" expand="lg" variant='dark' sticky="top">
+                <Container >
                     <Navbar.Brand as={Link} to={"/"}>
                         <img src={aristasImg} width="200px" alt="Logo" />
                     </Navbar.Brand>
@@ -18,8 +18,6 @@ export default function NavBar() {
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="me-auto my-2 my-lg-0"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll
                         >
                             <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
                             <Nav.Link as={Link} to={"/"}>Equipo</Nav.Link>
