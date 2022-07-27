@@ -20,9 +20,9 @@ export default function NavBar() {
                             className="me-auto my-2 my-lg-0"
                         >
                             <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
-                            <Nav.Link as={Link} to={"/"}>Equipo</Nav.Link>
-                            <Nav.Link as={Link} to={"/"}>Tratamientos</Nav.Link>
-                            <Nav.Link as={Link} to={"/"}>Contacto</Nav.Link>
+                            <Nav.Link as={Link} to={"/Nosotros"}>Nosotros</Nav.Link>
+                            <Nav.Link as={Link} to={"/Tratamientos"}>Tratamientos</Nav.Link>
+                            <Nav.Link as={Link} to={"/Contacto"}>Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
