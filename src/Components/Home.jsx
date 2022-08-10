@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Home.css';
+import Nosotros from './Nosotros';
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
                     </div>
                 </h3>
             </div>
+            <Nosotros />
         </section>
     )
 }

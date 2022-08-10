@@ -3,6 +3,8 @@ import '../Styles/Contacto.css';
 
 export default function Contacto() {
     return (
-        <div>Contacto</div>
+        <section className='main-contacto'>
+            <div>Contacto</div>
+        </section>
     )
 }
